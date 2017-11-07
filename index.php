@@ -48,7 +48,7 @@
       <video id="video-background" autoplay="" loop="" muted="" poster="assets/images/3.jpg">
         <!-- <source src="https://s3.amazonaws.com/distill-videos/videos/processed/2180/lighthouse.mp4" type="video/mp4"> -->
         
-        <source src="https://cdn.shopify.com/s/files/1/1579/2471/files/background.mp4?6657392178657267575" type="video/mp4">
+        <source src="https://cdn.shopify.com/s/files/1/1579/2471/files/background.mp4?10148768858601786282" type="video/mp4">
       
       </video>
       <section class="main">

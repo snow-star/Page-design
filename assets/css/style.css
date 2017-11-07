@@ -83,7 +83,7 @@ section ul li {
   top: 0;
   z-index: 1;
   overflow-x: hidden;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.95);
 }
 
 .content {
@@ -93,7 +93,7 @@ section ul li {
 }
 
 h1 {
-  color: #fff;
+  color: #000;
   font-weight: 100;
   font-size: 67px;
 }
