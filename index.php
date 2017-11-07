@@ -65,7 +65,7 @@
                 </div>
               </div>
             </div>
-            <div class="subscribe">
+            <!-- <div class="subscribe">
               <div class="row">
                 <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4 input-group subscribe-box">
                   <form class="subscribe-form" id="subscription-form">
@@ -77,7 +77,7 @@
                   <div id="subscription-response"></div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
