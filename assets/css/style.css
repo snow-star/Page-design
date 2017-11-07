@@ -429,7 +429,8 @@ a.website:hover {
 }
 
 .counter {
-  color: #eee;
+  color: #000;
+  padding-top: 50px;
 }
 
 .counter p {
