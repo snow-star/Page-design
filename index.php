@@ -58,10 +58,10 @@
               <h1>Welcome to You!</h1>
             </div>
             <div class="counter" id="countdown">
-              <h2>Launching in <span class="days timenumbers">00 </span>&nbsp;days <span class="hours timenumbers">00 </span>h <span class="minutes timenumbers">00 </span>m <span class="seconds timenumbers yellow-text">00 </span>s</h2>
+              <h2><span class="days timenumbers">00 </span>&nbsp;Days <span class="hours timenumbers">00 </span>h <span class="minutes timenumbers">00 </span>m <span class="seconds timenumbers yellow-text">00 </span>s</h2>
               <div class="row">
                 <div class="col-sm-6 col-sm-offset-3">
-                  <h1>LiveRogue HomePage</h1>
+                  <h5>LiveRogue HomePage</h5>
                 </div>
               </div>
             </div>
