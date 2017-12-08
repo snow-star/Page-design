@@ -50,7 +50,11 @@
         <div class="content">
           <div class="container">
             <div class="content2">
-              
+            <div>
+            <img src="http://dummyimage.com/280x200/56AD30/fff.png&text=1" />
+            <img src="http://dummyimage.com/280x200/1560f0/fff.png&text=2" />
+            <img src="http://dummyimage.com/280x200/C03229/fff.png&text=3" />
+            </div>
               <h5>3D Printed Sculptures</h5>
               <h1>Discover<br/>Limited Editions</h1>
               <br/><br/>

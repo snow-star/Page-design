@@ -39,16 +39,68 @@ body #video-background {
 
 /**/
 
-#mosaic
-    {
-      background-image: url('http://burnmind.com/demos/mosaic/bottom.jpg');
-    }
+div { position: relative; }
 
-    #mosaic span.hover
-    {
-      float: left;
-      background-image: url('http://burnmind.com/demos/mosaic/top.jpg');
-    }
+img {
+  position: absolute;
+  top: 0; left: 0;
+  z-index: 3;
+  -webkit-animation: slideshow 12s linear 0s infinite;
+  -moz-animation: slideshow 12s linear 0s infinite;
+  -ms-animation: slideshow 12s linear 0s infinite;
+  -o-animation: slideshow 12s linear 0s infinite;
+  animation: slideshow 12s linear 0s infinite;
+}
+
+img:nth-child(2) {
+  z-index: 2;
+  -webkit-animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  -ms-animation-delay: 4s;
+  -o-animation-delay: 4s;
+  animation-delay: 4s;
+}
+
+img:nth-child(3) {
+   z-index: 1;
+  -webkit-animation-delay:  8s;
+  -moz-animation-delay: 8s;
+  -ms-animation-delay: 8s;
+  -o-animation-delay: 8s;
+  animation-delay: 8s;
+}
+  
+@-webkit-keyframes slideshow {
+   25% { opacity: 1;}
+   33.33% { opacity: 0;} 
+   91.66% { opacity: 0;}
+   100% { opacity: 1;}
+}
+@-moz-keyframes slideshow {
+   25% { opacity: 1;}
+   33.33% { opacity: 0;  -moz-transform: translate3d(-100%, 0, 0); } 
+   91.66% { opacity: 0;}
+   100% { opacity: 1;}
+}
+@-ms-keyframes slideshow {
+   25% { opacity: 1;}
+   33.33% { opacity: 0;} 
+   91.66% { opacity: 0;}
+   100% { opacity: 1;}
+}
+@-o-keyframes slideshow {
+   25% { opacity: 1;}
+   33.33% { opacity: 0;} 
+   91.66% { opacity: 0;}
+   100% { opacity: 1;}
+}
+@keyframes slideshow {
+   25% { opacity: 1;  transform: translate3d(0, 0, 0);}
+   33.33% { opacity: 0; transform: translate3d(-100%, 0, 0); } 
+   91.66% { opacity: 0;}
+   100% { opacity: 1;}
+}
+
 
 /**/
 
