@@ -53,7 +53,25 @@
       <section class="main">
         <div class="content">
           <div class="container">
-            
+            <div class="content2">
+              <h1>Welcome to You!</h1>
+            </div>
+            <div class="counter" id="countdown">
+              <h2><span class="days timenumbers">00 </span>&nbsp;Days <span class="hours timenumbers">00 </span>h <span class="minutes timenumbers">00 </span>m <span class="seconds timenumbers yellow-text">00 </span>s</h2>              
+            </div>
+            <!-- <div class="subscribe">
+              <div class="row">
+                <div class="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-4 col-md-4 col-md-offset-4 col-lg-4 col-lg-offset-4 input-group subscribe-box">
+                  <form class="subscribe-form" id="subscription-form">
+                    <div class="input-group">
+                      <input class="form-control notify-me" id="subscriber-email" name="email" type="email" placeholder="Enter your email address" required=""><span class="input-group-addon">
+                        <input class="btn btn-default notify-me" id="subscribe-button" type="submit" value="NOTIFY ME"></span>
+                    </div>
+                  </form>
+                  <div id="subscription-response"></div>
+                </div>
+              </div>
+            </div> -->
           </div>
         </div>
       </section>
