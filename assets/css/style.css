@@ -66,19 +66,19 @@ ul {
     }
     
     &:nth-child(1) {
-      background: url('//unsplash.it/1960/1080') center/cover;
+      background: url('/assets/images/01.png') center/cover;
     }
     
     &:nth-child(2) {
-      background: url('//unsplash.it/1930/1080') center/cover;
+      background: url('assets/images/03.png') center/cover;
     }
     
     &:nth-child(3) {
-      background: url('//unsplash.it/1940/1080') center/cover;
+      background: url('assets/images/01.png') center/cover;
     }
     
     &:nth-child(4) {
-      background: url('//unsplash.it/1950/1080') center/cover;
+      background: url('assets/images/03.png') center/cover;
     }
   }
 }
