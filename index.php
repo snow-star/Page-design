@@ -20,7 +20,7 @@
     
     -->
     <link href="assets/css/style.css" rel="stylesheet">
-    
+    <script src="assets/js/custom.js"></script>
   </head>
   <body>
     
@@ -28,11 +28,21 @@
       <section class="main">
         <div class="content">
           <div class="container">
-              <div class="overlay">
-                <div class="bar"> </div>
-                <div class="bar"> </div>
-                <div class="bar"> </div>
-              </div>         
+              <div class="project">
+                <ul class="project__list">
+                  <li class="project__item"><a href="" class="project__link">Retro</a></li>
+                  <li class="project__item"><a href="" class="project__link">Tofu</a></li>
+                  <li class="project__item"><a href="" class="project__link">Banjo</a></li>
+                  <li class="project__item"><a href="" class="project__link">Pitchfork</a></li>
+                </ul>
+
+                <ul class="project__bg-list">
+                  <li class="project__bg-item"></li>
+                  <li class="project__bg-item"></li>
+                  <li class="project__bg-item"></li>
+                  <li class="project__bg-item"></li>
+                </ul>
+              </div>    
           </div>
         </div>
       </section>
