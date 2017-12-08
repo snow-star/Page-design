@@ -28,16 +28,37 @@
       <section class="main">
         <div class="content">
           <div class="container">
-            <div class="video-player full-width">              
-              </div>
-              <div class="video-wrapper">
-                <video class="bg-video" autoplay muted loop poster="https://www.thegraphicdesignschool.com/public/img/v002.blue.svg">
-                  <source src="https://www.thegraphicdesignschool.com/public/video/THE_GRAPHICDESIGNSCHOOL_HypeReel_FCP15_720p_MP4_1200kb.mp4" type="video/mp4">
-                  <source src="https://www.thegraphicdesignschool.com/public/video/THE_GRAPHICDESIGNSCHOOL_HypeReel_FCP15_720p_MP4_1200kb.webm" type="video/webm">
-                </video>                  
-              </div>
-              <!-- End video hero -->
-              
+            <div id="background">  
+                <table cellpadding="0" cellspacing="0" border="0" id="bg-table" data-count="0">
+                  <tr>
+                    <td></td><td></td><td></td><td></td>
+                  </tr>
+                  <tr>
+                    <td></td><td></td><td></td><td></td>
+                  </tr>
+                  <tr>
+                    <td></td><td></td><td></td><td></td>
+                  </tr>
+                  <tr>
+                    <td></td><td></td><td></td><td></td>
+                  </tr>
+                </table>
+                
+                <table cellpadding="0" cellspacing="0" border="0" id="bg-overlay">
+                  <tr>
+                    <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+                  </tr>
+                  <tr>
+                    <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+                  </tr>
+                </table>
+            </div>
           </div>
         </div>
       </section>
