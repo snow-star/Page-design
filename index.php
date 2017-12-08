@@ -28,37 +28,15 @@
       <section class="main">
         <div class="content">
           <div class="container">
-            <div id="background">  
-                <table cellpadding="0" cellspacing="0" border="0" id="bg-table" data-count="0">
-                  <tr>
-                    <td></td><td></td><td></td><td></td>
-                  </tr>
-                  <tr>
-                    <td></td><td></td><td></td><td></td>
-                  </tr>
-                  <tr>
-                    <td></td><td></td><td></td><td></td>
-                  </tr>
-                  <tr>
-                    <td></td><td></td><td></td><td></td>
-                  </tr>
-                </table>
-                
-                <table cellpadding="0" cellspacing="0" border="0" id="bg-overlay">
-                  <tr>
-                    <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
-                  </tr>
-                  <tr>
-                    <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
-                  </tr>
-                  <tr>
-                    <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
-                  </tr>
-                  <tr>
-                    <td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
-                  </tr>
-                </table>
-            </div>
+          <div id="image1" class="img" data-img="https://25.media.tumblr.com/tumblr_mef6quv5pq1qi1a91o1_1280.jpg"></div>
+          <div id="image2" class="img" data-img="https://25.media.tumblr.com/tumblr_mef66y4dyg1qi1a91o1_1280.jpg"></div>
+          <div id="image3" class="img" data-img="https://24.media.tumblr.com/tumblr_mef649hlGH1qi1a91o1_1280.jpg"></div>
+          <div id="image4" class="img" data-img="https://24.media.tumblr.com/tumblr_mdji3d4gz01qi1a91o1_1280.jpg"></div>
+          <div id="image5" class="img" data-img="https://25.media.tumblr.com/tumblr_m8wu1hCEFE1qi1a91o1_1280.jpg"></div>
+          <div id="image6" class="img" data-img="https://24.media.tumblr.com/tumblr_m7x6dwKcdy1qi1a91o1_1280.jpg"></div>
+          <div id="image7" class="img" data-img="https://24.media.tumblr.com/tumblr_macu73Re0K1qi1a91o1_1280.jpg"></div>
+          <div id="image8" class="img" data-img="https://24.media.tumblr.com/tumblr_m5978ffta31qi1a91o1_1280.jpg"></div>
+          <div id="image9" class="img" data-img="https://25.media.tumblr.com/tumblr_m3yu2f2rld1qi1a91o1_1280.jpg"></div>
           </div>
         </div>
       </section>
