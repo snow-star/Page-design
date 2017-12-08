@@ -44,8 +44,8 @@
     <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
   </head>
   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
-    <main>      
-      <section class="main">
+    <!-- <main>      
+      <section class="main"> -->
         <div class="content">
           <div class="container">
             <div class="content2">
@@ -57,8 +57,8 @@
             </div>            
           </div>
         </div>
-      </section>
-    </main>
+     <!--  </section>
+    </main> -->
     <!--  
     JavaScripts
     =============================================
