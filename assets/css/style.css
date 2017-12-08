@@ -37,6 +37,21 @@ body #video-background {
   overflow: hidden;
 }
 
+/**/
+
+#mosaic
+    {
+      background-image: url('http://burnmind.com/demos/mosaic/bottom.jpg');
+    }
+
+    #mosaic span.hover
+    {
+      float: left;
+      background-image: url('http://burnmind.com/demos/mosaic/top.jpg');
+    }
+
+/**/
+
 ::-webkit-input-placeholder {
   color: #fff !important;
 }

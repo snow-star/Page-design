@@ -49,6 +49,7 @@
         <div class="content">
           <div class="container">
             <div class="content2">
+            <div id="mosaic"></div>
               <h5>3D Printed Sculptures</h5>
               <h1>Discover<br/>Limited Editions</h1>
               <br/><br/>
