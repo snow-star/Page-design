@@ -28,25 +28,13 @@
       <section class="main">
         <div class="content">
           <div class="container">
-            <div class="video-player full-width">
-              <video id="my-video" class="video-js" controls preload="auto"
-                poster="https://www.thegraphicdesignschool.com/public/img/v002.blue.svg" data-setup="{}">
-                  <source src="https://www.thegraphicdesignschool.com/public/video/THE_GRAPHICDESIGNSCHOOL_HypeReel_FCP15_720p_MP4_1200kb.mp4" type='video/mp4'>
-                  <source src="https://www.thegraphicdesignschool.com/public/video/THE_GRAPHICDESIGNSCHOOL_HypeReel_FCP15_720p_MP4_1200kb.webm" type='video/webm'>
-                </video>
+            <div class="video-player full-width">              
               </div>
-
               <div class="video-wrapper">
                 <video class="bg-video" autoplay muted loop poster="https://www.thegraphicdesignschool.com/public/img/v002.blue.svg">
                   <source src="https://www.thegraphicdesignschool.com/public/video/THE_GRAPHICDESIGNSCHOOL_HypeReel_FCP15_720p_MP4_1200kb.mp4" type="video/mp4">
                   <source src="https://www.thegraphicdesignschool.com/public/video/THE_GRAPHICDESIGNSCHOOL_HypeReel_FCP15_720p_MP4_1200kb.webm" type="video/webm">
-                </video>
-                  <div class="page-width">
-                      <div class="video--content">
-                          <h2>Ignite Your Inner Creative</h2>
-                          <a href="#" id="play">Play the Video</a>
-                      </div>
-                  </div>
+                </video>                  
               </div>
               <!-- End video hero -->
               
