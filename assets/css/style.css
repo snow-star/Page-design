@@ -1,11 +1,35 @@
-#background { background-image: url(http://lorempixel.com/output/city-q-c-640-480-7.jpg); display: block; width: 640px; height: 480px; position: relative;}
-#bg-table { width: 640px; height: 480px;}
-#bg-overlay { position: absolute; top: 0; left: 0; width: 640px; height: 480px;}
-#bg-overlay td { border: 1px solid #000;}
+#background { 
+  background-image: url(http://lorempixel.com/output/city-q-c-640-480-7.jpg);
+ display: block; 
+ width: 640px; 
+ height: 480px; 
+ position: relative;
+}
+#bg-table { 
+  width: 640px; 
+  height: 480px;
+}
+#bg-overlay { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 640px; 
+  height: 480px;
+}
+#bg-overlay td { 
+  border: 1px solid #000;
+}
 
 /* Each cell is: 160 x 120 */
 
-#bg-table td,
-#bg-overlay td { height: 120px; width: 160px;}
+#bg-table td,#bg-overlay td { 
+  height: 120px; 
+  width: 160px;
+}
 
-#bg-table td { border: 1px solid #000; background: #333; transition: opacity 1s linear; opacity: 0;}
+#bg-table td { 
+  border: 1px solid #000; 
+  background: #333; 
+  transition: opacity 1s linear; 
+  opacity: 0;
+}
