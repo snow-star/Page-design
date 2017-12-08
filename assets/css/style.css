@@ -1,58 +1,107 @@
-body {
-  margin: 0;
-  background: linear-gradient(60deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
-  background-size: 1800% 1800%;
-  animation: rainbow 30s ease infinite;
-  
-  display: flex;
-  justify-content: center;
+* {
+  box-sizing: border-box;
 }
 
-.overlay {
-  width: 100%;
-  height: 750px;
-  margin: auto, auto, auto, auto;
+body {
+  font-family: 'Lato';
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.5;
+  background: lighten(black, 10);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project {
+  height: 100vh;
+  min-width: 100vw;
+  overflow: hidden;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-@-webkit-keyframes rainbow {
-    0%{background-position:0% 82%}
-    50%{background-position:100% 19%}
-    100%{background-position:0% 82%}
-  }
-
-.bar{
-  height: 10px;
-  width: 10px;
-  border: 3px solid white;
-  content: '';
-  top: 10%;
-  margin 10px, 5px, 10px, 5px;
-  border-radius: 100%;
-  animation: ball 2s infinite linear;
   
+  &__list {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    font-size: 36px;
+    color: white;
+  }
+  
+  &__link {
+    will-change: opacity;
+    display: block;
+    margin: 24px 0;
+  }
+  
+  &__bg-list {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  &__bg-item {
+    will-change: transform, opacity;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0;
+    transform: scale(0.7);
+    transition: all 1s cubic-bezier(0.23, 1, 0.32, 1);
+    
+    &--active {
+      opacity: 1;
+      transform: scale(1);
+    }
+    
+    &:nth-child(1) {
+      background: url('//unsplash.it/1960/1080') center/cover;
+    }
+    
+    &:nth-child(2) {
+      background: url('//unsplash.it/1930/1080') center/cover;
+    }
+    
+    &:nth-child(3) {
+      background: url('//unsplash.it/1940/1080') center/cover;
+    }
+    
+    &:nth-child(4) {
+      background: url('//unsplash.it/1950/1080') center/cover;
+    }
+  }
 }
 
-.bar:nth-child(2n) {
-  animation-delay: 0.2s;
-}
-.bar:nth-child(3n) {
-  animation-delay: 0.4s;
-}
+/* demo */
 
-@keyframes ball {
-    0%   { 
-    transform: scale(0.5);
-    background: white;
+main {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  padding: 24px;
+  opacity: 0.9;
+  
+  h1 {
+    font-weight: 300;
+    margin: 0 0 12px;
   }
-  50%   { 
-    transform: scale(1);
-    background: transparent;
-  }
-  100% { 
-    transform: scale(0.5);
-    background: white;
+  
+  p {
+    margin: 0;
+    
+    a {
+      font-weight: bold;
+    }
   }
 }
