@@ -13,34 +13,51 @@
     Favicons
     =============================================
     -->
-    
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/images/favicons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <!--  
     Stylesheets
     =============================================
     
     -->
+    <!-- Default stylesheets-->
+    <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Template specific stylesheets-->
+    <link href="assets/lib/owl.carousel/dist/assets/owl.carousel.css" rel="stylesheet">
+    <!-- Main stylesheet and color file-->
     <link href="assets/css/style.css" rel="stylesheet">
-    <script src="assets/js/custom.js"></script>
+    <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
   </head>
-  <body>
-    
-      
+  <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+    <main>      
       <section class="main">
         <div class="content">
           <div class="container">
-          <div id="image1" class="img" data-img="https://25.media.tumblr.com/tumblr_mef6quv5pq1qi1a91o1_1280.jpg"></div>
-          <div id="image2" class="img" data-img="https://25.media.tumblr.com/tumblr_mef66y4dyg1qi1a91o1_1280.jpg"></div>
-          <div id="image3" class="img" data-img="https://24.media.tumblr.com/tumblr_mef649hlGH1qi1a91o1_1280.jpg"></div>
-          <div id="image4" class="img" data-img="https://24.media.tumblr.com/tumblr_mdji3d4gz01qi1a91o1_1280.jpg"></div>
-          <div id="image5" class="img" data-img="https://25.media.tumblr.com/tumblr_m8wu1hCEFE1qi1a91o1_1280.jpg"></div>
-          <div id="image6" class="img" data-img="https://24.media.tumblr.com/tumblr_m7x6dwKcdy1qi1a91o1_1280.jpg"></div>
-          <div id="image7" class="img" data-img="https://24.media.tumblr.com/tumblr_macu73Re0K1qi1a91o1_1280.jpg"></div>
-          <div id="image8" class="img" data-img="https://24.media.tumblr.com/tumblr_m5978ffta31qi1a91o1_1280.jpg"></div>
-          <div id="image9" class="img" data-img="https://25.media.tumblr.com/tumblr_m3yu2f2rld1qi1a91o1_1280.jpg"></div>
+            <div class="content2">
+              <h5>3D Printed Sculptures</h5>
+              <h1>Discover<br/>Limited Editions</h1>
+              <br/><br/>
+              <h5>Available On December 12th 2017</h5>
+            </div>            
           </div>
         </div>
       </section>
-   
+    </main>
     <!--  
     JavaScripts
     =============================================
