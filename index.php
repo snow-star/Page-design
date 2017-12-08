@@ -44,12 +44,13 @@
     <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
   </head>
   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
-    <!-- <main>      
-      <section class="main"> -->
+    <main>
+      <div id="mosaic"></div>
+      <section class="main">
         <div class="content">
           <div class="container">
             <div class="content2">
-            <div id="mosaic"></div>
+              
               <h5>3D Printed Sculptures</h5>
               <h1>Discover<br/>Limited Editions</h1>
               <br/><br/>
@@ -57,8 +58,8 @@
             </div>            
           </div>
         </div>
-     <!--  </section>
-    </main> -->
+      </section>
+    </main>
     <!--  
     JavaScripts
     =============================================
