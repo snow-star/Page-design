@@ -60,9 +60,6 @@ $(document).ready(function(){
       }
       
     })() // Change BG
-})()
-  
-  
-  
+})() 
   
 });
