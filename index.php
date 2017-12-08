@@ -44,16 +44,6 @@
     <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
   </head>
   <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
-<<<<<<< HEAD
-    <main>      
-      <section class="main">
-        <div class="content">
-        <div class="container">
-          <div class="overlay">
-            <div class="bar"> </div>
-            <div class="bar"> </div>
-            <div class="bar"> </div>
-=======
     <main>
       <video id="video-background" autoplay="" loop="" muted="" poster="assets/images/1.jpg">
          <source src="https://cdn.shopify.com/s/files/1/1579/2471/files/background.mp4?3049991775902140626" type="video/mp4">   
@@ -82,9 +72,7 @@
                 </div>
               </div>
             </div> -->
->>>>>>> 5209791a9a479d7f3f3efbc28c84eacf53997902
           </div>
-        </div>
         </div>
       </section>
     </main>
