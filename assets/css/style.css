@@ -66,11 +66,13 @@ ul {
     }
     
     &:nth-child(1) {
-      background: url('/assets/images/01.png') center/cover;
+      
+
+      background: url('../images/01.png') center/cover;
     }
     
     &:nth-child(2) {
-      background: url('assets/images/03.png') center/cover;
+      background: url('../images/03.png') center/cover;
     }
     
     &:nth-child(3) {
