@@ -1,31 +1,23 @@
-var project = $('.project');
-var pLink = project.find('.project__link');
-var pBg = project.find('.project__bg-item');
-
-var changeBg = function() {
-  var thisProject = $(this);
-  var thisProjectIndex = thisProject.parent().index();
-  var thisProjectBg = pBg.eq(thisProjectIndex);
+$(document).ready( function() {
   
-  // hide all backgrounds and fade out project names
-  pBg.removeClass('project__bg-item--active');
-  pLink.css('opacity', '0.4');
+   function log(str) {
+    $("#console").append("<div class='line'>"+str+"</div>");
+  }
+
+  log("Hello, (jquery version - " + $.fn.jquery + ")");
   
-  // reveal the project bg you hovered over and increase opacity for that name
-  thisProject.css('opacity', '1');
-  thisProjectBg.addClass('project__bg-item--active');
-};
+  $(document).on( "click", "#play", function(e) { e.preventDefault();
+    var t = $(this), 
+    p = t.parents(".video-wrapper"),
+    v = p.siblings("video-player"); 
 
-var showFirst = function() {
-  // when the page loads reveal the first project
-  pLink.css('opacity', '0.4');
-  pLink.parent().first().children().css('opacity', '1');
-  pBg.first().addClass('project__bg-item--active');
-}
-
-var init = function() {
-  $(document).on('ready', showFirst);
-  pLink.on('mouseenter', changeBg);
-};
-
-init();
+    $(".video-wrapper video").fadeOut( 400, function() {
+      $(".video--content").fadeOut( 400, function() {
+        log( "fadeOut : complete" );
+        $(".video-player").addClass("visible").fadeIn( 400 );
+      });
+    });
+                                                 
+    
+  });
+});

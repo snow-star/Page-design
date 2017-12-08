@@ -28,21 +28,28 @@
       <section class="main">
         <div class="content">
           <div class="container">
-              <div class="project">
-                <ul class="project__list">
-                  <li class="project__item"><a href="" class="project__link">Retro</a></li>
-                  <li class="project__item"><a href="" class="project__link">Tofu</a></li>
-                  <li class="project__item"><a href="" class="project__link">Banjo</a></li>
-                  <li class="project__item"><a href="" class="project__link">Pitchfork</a></li>
-                </ul>
+            <div class="video-player full-width">
+              <video id="my-video" class="video-js" controls preload="auto"
+                poster="https://www.thegraphicdesignschool.com/public/img/v002.blue.svg" data-setup="{}">
+                  <source src="https://www.thegraphicdesignschool.com/public/video/THE_GRAPHICDESIGNSCHOOL_HypeReel_FCP15_720p_MP4_1200kb.mp4" type='video/mp4'>
+                  <source src="https://www.thegraphicdesignschool.com/public/video/THE_GRAPHICDESIGNSCHOOL_HypeReel_FCP15_720p_MP4_1200kb.webm" type='video/webm'>
+                </video>
+              </div>
 
-                <ul class="project__bg-list">
-                  <li class="project__bg-item"></li>
-                  <li class="project__bg-item"></li>
-                  <li class="project__bg-item"></li>
-                  <li class="project__bg-item"></li>
-                </ul>
-              </div>    
+              <div class="video-wrapper">
+                <video class="bg-video" autoplay muted loop poster="https://www.thegraphicdesignschool.com/public/img/v002.blue.svg">
+                  <source src="https://www.thegraphicdesignschool.com/public/video/THE_GRAPHICDESIGNSCHOOL_HypeReel_FCP15_720p_MP4_1200kb.mp4" type="video/mp4">
+                  <source src="https://www.thegraphicdesignschool.com/public/video/THE_GRAPHICDESIGNSCHOOL_HypeReel_FCP15_720p_MP4_1200kb.webm" type="video/webm">
+                </video>
+                  <div class="page-width">
+                      <div class="video--content">
+                          <h2>Ignite Your Inner Creative</h2>
+                          <a href="#" id="play">Play the Video</a>
+                      </div>
+                  </div>
+              </div>
+              <!-- End video hero -->
+              
           </div>
         </div>
       </section>
